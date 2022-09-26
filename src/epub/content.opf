@@ -40,9 +40,9 @@
 		<meta property="term" refines="#subject-3">sh98004865</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh85145221</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Shorts</meta>
 		<meta property="se:is-a-collection">true</meta>
-		<dc:description id="description">A collection of Ambrose Bierce's short stories, featuring An Occurrence at Owl Creek Bridge.</dc:description>
+		<dc:description id="description">A collection of Ambrose Bierce’s short stories, featuring An Occurrence at Owl Creek Bridge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
@@ -92,8 +92,37 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-holy-terror.xhtml" id="a-holy-terror.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-horseman-in-the-sky.xhtml" id="a-horseman-in-the-sky.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-lady-from-redhorse.xhtml" id="a-lady-from-redhorse.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-son-of-the-gods.xhtml" id="a-son-of-the-gods.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-watcher-by-the-dead.xhtml" id="a-watcher-by-the-dead.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/an-adventure-at-brownville.xhtml" id="an-adventure-at-brownville.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/an-affair-of-outposts.xhtml" id="an-affair-of-outposts.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/an-occurrence-at-owl-creek-bridge.xhtml" id="an-occurrence-at-owl-creek-bridge.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chickamauga.xhtml" id="chickamauga.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/civilians.xhtml" id="civilians.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/george-thurston.xhtml" id="george-thurston.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/killed-at-resaca.xhtml" id="killed-at-resaca.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/one-kind-of-officer.xhtml" id="one-kind-of-officer.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/one-of-the-missing.xhtml" id="one-of-the-missing.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/one-officer-one-man.xhtml" id="one-officer-one-man.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/parker-adderson-philosopher.xhtml" id="parker-adderson-philosopher.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/soldiers.xhtml" id="soldiers.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-affair-at-coulters-notch.xhtml" id="the-affair-at-coulters-notch.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-applicant.xhtml" id="the-applicant.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-boarded-window.xhtml" id="the-boarded-window.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-coup-de-grace.xhtml" id="the-coup-de-grace.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-eyes-of-the-panther.xhtml" id="the-eyes-of-the-panther.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-famous-gilson-bequest.xhtml" id="the-famous-gilson-bequest.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-man-and-the-snake.xhtml" id="the-man-and-the-snake.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-man-out-of-the-nose.xhtml" id="the-man-out-of-the-nose.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-mockingbird.xhtml" id="the-mockingbird.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-story-of-a-conscience.xhtml" id="the-story-of-a-conscience.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-suitable-surroundings.xhtml" id="the-suitable-surroundings.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -101,6 +130,35 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="soldiers.xhtml"/>
+		<itemref idref="a-horseman-in-the-sky.xhtml"/>
+		<itemref idref="an-occurrence-at-owl-creek-bridge.xhtml"/>
+		<itemref idref="chickamauga.xhtml"/>
+		<itemref idref="a-son-of-the-gods.xhtml"/>
+		<itemref idref="one-of-the-missing.xhtml"/>
+		<itemref idref="killed-at-resaca.xhtml"/>
+		<itemref idref="the-affair-at-coulters-notch.xhtml"/>
+		<itemref idref="the-coup-de-grace.xhtml"/>
+		<itemref idref="parker-adderson-philosopher.xhtml"/>
+		<itemref idref="an-affair-of-outposts.xhtml"/>
+		<itemref idref="the-story-of-a-conscience.xhtml"/>
+		<itemref idref="one-kind-of-officer.xhtml"/>
+		<itemref idref="one-officer-one-man.xhtml"/>
+		<itemref idref="george-thurston.xhtml"/>
+		<itemref idref="the-mockingbird.xhtml"/>
+		<itemref idref="civilians.xhtml"/>
+		<itemref idref="the-man-out-of-the-nose.xhtml"/>
+		<itemref idref="an-adventure-at-brownville.xhtml"/>
+		<itemref idref="the-famous-gilson-bequest.xhtml"/>
+		<itemref idref="the-applicant.xhtml"/>
+		<itemref idref="a-watcher-by-the-dead.xhtml"/>
+		<itemref idref="the-man-and-the-snake.xhtml"/>
+		<itemref idref="a-holy-terror.xhtml"/>
+		<itemref idref="the-suitable-surroundings.xhtml"/>
+		<itemref idref="the-boarded-window.xhtml"/>
+		<itemref idref="a-lady-from-redhorse.xhtml"/>
+		<itemref idref="the-eyes-of-the-panther.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
