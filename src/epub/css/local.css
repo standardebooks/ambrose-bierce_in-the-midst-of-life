@@ -2,7 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Letters */
-
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }
@@ -29,8 +28,15 @@ footer{
 	text-align: initial;
 	text-indent: 0;
 }
-
 /* End Letters */
+
+/* Headers not in TOC */
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+/* End Headers not in TOC */
 
 #a-holy-terror-5 blockquote{
 	text-align: center;
