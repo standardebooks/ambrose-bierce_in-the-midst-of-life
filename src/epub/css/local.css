@@ -38,6 +38,27 @@ header{
 }
 /* End Headers not in TOC */
 
+/* Start Poetry */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+/* End Poetry */
+
 #a-holy-terror-5 blockquote{
 	text-align: center;
 }
