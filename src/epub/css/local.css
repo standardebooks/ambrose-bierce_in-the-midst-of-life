@@ -90,7 +90,14 @@ section > header [epub|type~="epigraph"]{
 }
 /* End epigraphs in section headers */
 
-
 #a-holy-terror-5 blockquote{
+	text-align: center;
+}
+
+/* headers not in TOC */
+#the-suitable-surroundings-3 > div > header,
+#the-suitable-surroundings-3 > blockquote > header{
+	font-variant: small-caps;
+	margin: 1em;
 	text-align: center;
 }
