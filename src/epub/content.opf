@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">In the Midst of Life</dc:title>
 		<meta property="file-as" refines="#title">In the Midst of Life</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Tales of Soldiers and Civilians</dc:title>
+		<meta property="file-as" refines="#subtitle">Tales of Soldiers and Civilians</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">In the Midst of Life: Tales of Soldiers and Civilians</dc:title>
+		<meta property="file-as" refines="#fulltitle">In the Midst of Life</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">United States -- History -- Civil War, 1861-1865 -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Horror tales, American</dc:subject>
 		<dc:subject id="subject-3">Paranormal fiction</dc:subject>
@@ -104,6 +111,7 @@
 		<item href="text/civilians.xhtml" id="civilians.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/george-thurston.xhtml" id="george-thurston.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/killed-at-resaca.xhtml" id="killed-at-resaca.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/one-kind-of-officer.xhtml" id="one-kind-of-officer.xhtml" media-type="application/xhtml+xml"/>
@@ -131,6 +139,7 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="soldiers.xhtml"/>
 		<itemref idref="a-horseman-in-the-sky.xhtml"/>
 		<itemref idref="an-occurrence-at-owl-creek-bridge.xhtml"/>
