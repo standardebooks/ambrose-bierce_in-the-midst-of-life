@@ -56,7 +56,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/13334</dc:source>
 		<dc:source>https://archive.org/details/collectedworksof02bierrich</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">se typogrify will incorrectly change no-break hyphens used for prosodic effect (8.7.7.6)</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/In_the_Midst_of_Life</meta>
