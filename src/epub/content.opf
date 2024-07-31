@@ -60,7 +60,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/13334</dc:source>
 		<dc:source>https://archive.org/details/collectedworksof02bierrich</dc:source>
-		<meta property="se:word-count">77045</meta>
+		<meta property="se:word-count">76994</meta>
 		<meta property="se:reading-ease.flesch">67.49</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/In_the_Midst_of_Life</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ambrose-bierce_in-the-midst-of-life</meta>
